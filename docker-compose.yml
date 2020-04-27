@@ -1,0 +1,6 @@
+version: '2.3'
+services:
+  jupyter:
+    build: .
+    container_name: ngboost-jupyter
+    tty: true
