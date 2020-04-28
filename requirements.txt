@@ -3,3 +3,10 @@ matplotlib
 seaborn
 jupyter
 notebook
+
+# weak learner
+sklearn
+
+# compare with gbdt
+xgboost
+lightgbm
