@@ -17,3 +17,20 @@ docker exec -it ngboost-jupyter bash
 ```bash
 python ngboost.py
 ```
+
+### Conditions
+
+* Data: Artificial Data
+    * Input: 1-dimension
+    * Target: `true_function` + random noise scaled by input X
+* NGBoost Parameters:
+    * Weak Learner: Decision Tree
+    * Distribution: Normal Distribution
+        * re-parameterized \theta = ln (var (i.e. \sigma^2))
+    * Use Natural Gradient 
+    * `n_estimators`: 500
+    * `learning_rate` 1e-2
+
+### Result
+
+![](./results/result.gif)
