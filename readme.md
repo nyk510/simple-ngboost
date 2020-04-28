@@ -1,6 +1,9 @@
 # NGBoost
 
-Simple NGBoost Implementation.
+Simple NGBoost (Natural Gradient Boosting for Probabilistic Prediction) Implementation.
+
+* Original: https://github.com/stanfordmlgroup/ngboost
+* paper: https://arxiv.org/abs/1910.03225
 
 ## Quick Start
 
