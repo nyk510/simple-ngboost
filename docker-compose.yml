@@ -4,3 +4,7 @@ services:
     build: .
     container_name: ngboost-jupyter
     tty: true
+    command: bash
+    working_dir: /var/www/ngboost
+    volumes:
+    - ./:/var/www/ngboost
