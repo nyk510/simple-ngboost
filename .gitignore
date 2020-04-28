@@ -263,3 +263,6 @@ fabric.properties
 # Pyre type checker
 
 # End of https://www.gitignore.io/api/code,django,python,pycharm
+
+results
+
